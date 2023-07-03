@@ -1,0 +1,10 @@
+com\railway\reservation\traindetailservice\TrainDetailService.class
+com\railway\reservation\TrainDetailsApplication.class
+com\railway\reservation\Controller\TrainDetailController.class
+com\railway\reservation\traindetailservice\TrainDetailServiceImpl.class
+com\railway\reservation\model\TrainDetails.class
+com\railway\reservation\repository\TrainDetailRepository.class
+com\railway\reservation\repository\TrainFareRepository.class
+com\railway\reservation\exception\TrainDetailNotFoundException.class
+com\railway\reservation\model\TrainFare.class
+com\railway\reservation\model\TrainSeats.class
