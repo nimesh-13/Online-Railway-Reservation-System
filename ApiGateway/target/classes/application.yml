@@ -1,0 +1,23 @@
+spring:
+ cloud:
+   gateway:
+     routes:
+       - id: TrainDetails
+         uri: lb://TRAIN-DETAILS
+         predicates:
+           - Path=/traindetails/*
+         filters:
+          - AuthenticationFilter
+           
+       
+       - id: Booking
+         uri: lb://TICKET-BOOKING
+         predicates:
+           - Path=/**
+         filters:
+           - AuthenticationFilter
+         
+       - id: Users
+         uri: lb://USER-LOGIN
+         predicates:
+           - Path=/**  
